@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    background-image: linear-gradient(lightblue, pink, white);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.parent{
+    position: relative;
+    top: 80px;
+    left: 40px;
+    width: 90%;
+    background-color: rgb(172, 233, 233);
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    height: 80px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:rgb(242,161,232);
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+.head{
+    text-align: center;
+}
+form{
+  position: relative;
+  top: 40px;
+  left: 40%;
+}
+.all{
+    position: relative;
+}
+#name{
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgb(172, 233, 233);
+    font-size: larger;
+}
+label{
+    font-size: x-large;
+    font-weight: bold;
+}
+#dept{
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgb(172, 233, 233);
+    font-size: larger;
+}
+#Rating{
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgb(172, 233, 233);
+    font-size: larger;
+}
+button{
+    font-weight: bold;
+    font-size: larger;
+    width: 150px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgb(172, 233, 233);
+    font-size: larger;
+    cursor: pointer;
+}
+
+@media (max-width:500px) {
+    form{
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+    .card{
+        position: absolute;
+        left: -50px;
+        width: 150px;
+    }
+}
